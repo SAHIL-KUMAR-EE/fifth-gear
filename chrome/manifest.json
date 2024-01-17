@@ -17,7 +17,7 @@
       "file:///*"
     ],
     "web_accessible_resources": [
-      "abc.txt"
+      "dataset.txt"
     ]    
   }
   
