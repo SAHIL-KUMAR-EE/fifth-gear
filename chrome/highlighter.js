@@ -1,7 +1,7 @@
 // highlighter.js
 // var words = ["hurry","only"];
 
-var fileUrl = chrome.runtime.getURL('abc.txt');
+var fileUrl = chrome.runtime.getURL('dataset.txt');
 console.log(fileUrl);
 fetch(fileUrl)
     .then(response => response.text())
