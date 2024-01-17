@@ -2,12 +2,9 @@
     "manifest_version": 2,
     "name": "Text Highlighter",
     "version": "1.0",
-    "background": {
-      "scripts": ["background.js"],
-      "persistent": false
-    },
     "browser_action": {
-      "default_title": "Highlight Text"
+      "default_title": "Highlight Text",
+      "default_popup": "popup.html"
     },
     "permissions": [
       "storage",
@@ -17,7 +14,8 @@
       "file:///*"
     ],
     "web_accessible_resources": [
-      "dataset.txt"
+      "dataset.txt",
+      "popup.html",
+      "highlighter.js"
     ]    
-  }
-  
+}
