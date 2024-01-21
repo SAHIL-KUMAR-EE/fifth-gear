@@ -1,30 +1,27 @@
 // highlighter.js
-// var words = ["hurry","only"];
-
 var fileUrl = chrome.runtime.getURL('dataset.txt');
 console.log(fileUrl);
 fetch(fileUrl)
     .then(response => response.text())
     .then(content => {
-      // Split the content into an array based on newline characters
+      // Taking input in an array
       const arr = content.split('\n').filter(Boolean);
-
-      // Remove '\r' from each element in the array
       var words = arr.map(element => element.replace('\r', ''));
-
-      // Display the cleaned array in the console
-      console.log(words);
       var bodyText = document.body.innerHTML;
+      var matchCounter = 0;
 
       for (var i = 0; i < words.length; i++) {
         var regex = new RegExp(words[i], 'gi');
         bodyText = bodyText.replace(regex, function(match) {
+          matchCounter++;
           return '<mark>' + match + '</mark>';
         });
       }
-
+      // Sending dark patterns count to popup.js
+      sendMatchCounter(matchCounter);
       document.body.innerHTML = bodyText;
-    })
+    });
 
-// words from your .tsv file
-
+function sendMatchCounter(counter) {
+  chrome.runtime.sendMessage({ action: 'sendMatchCounter', matchCounter: counter });
+}
