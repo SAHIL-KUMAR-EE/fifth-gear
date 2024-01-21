@@ -1,12 +1,29 @@
+<!-- popup.html -->
 <!DOCTYPE html>
 <html>
 <head>
     <title>Text Highlighter</title>
     <script src="popup.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Text Highlighter</h1>
-    <button id="b1">Highlight Text</button>
-    <!-- <script src="highlighter.js"></script> -->
+    <div class="header">
+        <img src="logo.svg" id="logo">
+        <span id="extension_name">Dark Pattern Detector</span>
+        <button id="dark-mode"></button>
+    </div>
+    <div class="button-container">
+         <button id="b1">
+            <img src="button_off.svg" id="b_image">
+         </button>
+    </div>
+    <div class="counter-container">
+        Dark Patterns : 
+        <span id="count">0</span>
+    </div>
+    <a href="https://github.com/SAHIL-KUMAR-EE/fifth-gear" target="_blank" rel=“noopener noreferrer” class="github-link">
+        <img src="github-mark.svg" id="gitlogo">
+        Check on GitHub
+    </a>
 </body>
 </html>
