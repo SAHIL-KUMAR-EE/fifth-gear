@@ -1,0 +1,124 @@
+/* styles.css */
+body{
+    height: 400px;
+    width: 250px;
+    margin: 15px;
+    background-color: #38393b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+body.light{
+    background-color: #f3f4f7;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-container {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter-container {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.github-link {
+    height: 40px;
+    width: 100%;
+    background-color: #ff474c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.github-link:hover{
+    background-color: #f72f2ffe;
+}
+.github-link.light{
+    color: black;
+}
+#dark-mode{
+    align-items: center;
+    width: 40px;
+}
+#extension_name{
+    flex: 1;
+    font-size: 15px;
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+    color: white;
+}
+#extension_name.light{
+    color: black;
+}
+#b1{
+    width: 12em;
+    height: 12em;
+    outline: none;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #171717, #444245);
+    border: 4px #090909 solid;
+    box-shadow: inset 2px 2px 0px #7d7c7e, inset -2px -2px 0px #1c1c1c;
+}
+#b1.light{
+    border: 4px wheat solid;
+    background: linear-gradient(145deg, #b3b3b3, #f0f0f0);
+}
+#b1:hover{
+    box-shadow: inset 2px -2px 0px #7d7c7e, inset 2px 2px 0px #1c1c1c;
+}
+#b_image {
+    width: 75px;
+    height: 75px;
+}
+#logo{
+    width: 48px;
+    height: 48px;
+}
+#count{
+    font-weight: bold;
+}
+#gitlogo{
+    height: 30px;
+}
+#dark-mode{
+    content: '';
+    display: inline-block;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    box-shadow: inset -8px -4px 1px 1px #fff;
+    border: none;
+}
+#dark-mode.light{
+    background-color: gold;
+    box-shadow: none;
+}
