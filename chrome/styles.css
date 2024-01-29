@@ -39,6 +39,8 @@ body.light{
     border-radius: 5px;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
+    flex-direction: column;
 }
 .github-link {
     height: 40px;
@@ -121,4 +123,9 @@ body.light{
 #dark-mode.light{
     background-color: gold;
     box-shadow: none;
+}
+
+#collapsibleCategory{
+    width: 100%;
+    display: none;
 }
