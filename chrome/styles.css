@@ -105,7 +105,7 @@ body.light{
 #count{
     font-weight: bold;
 }
-#gitlogo{
+.gitlogo{
     height: 30px;
 }
 #dark-mode{
