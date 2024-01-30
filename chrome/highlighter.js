@@ -42,7 +42,7 @@ fetch(fileUrl)
             }
           }
 
-          return '<mark>' + match + '</mark>';
+          return '<mark style="border: 2px solid red;">' + match + '</mark>';
         });
       }
       // Sending match data and categories to popup.js
