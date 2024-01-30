@@ -10,6 +10,7 @@
 <p align="center">
   <a href="#Introduction">Introduction</a> •
   <a href="#Features">Features</a> •
+  <a href="#Browser Compatibility">Browser Compatibility</a> •
   <a href="#Screenshots">Screenshots</a> •
   <a href="#Installation">Installation</a> •
   <a href="#Usage">Usage</a> •
@@ -27,6 +28,16 @@ Dark patterns are manipulative design elements and techniques which are meant to
  - **Dark/Light Mode:** Available in both Dark and Light theme to prevent eye strain.
  - **Dark Patterns Dataset:** Large dataset containing more than 2000 phrases involving dark patterns.
  - **Easy to Use UI:** Ability to toggle ON/OFF the extension.
+ - **Browser Compatibility:** Extension is compatible with all major browsers.
+
+## Browser Compatibility
+| Browser         	| Is compatible? 	| Tested versions                                                               	|
+|-----------------	|:--------------:	|-------------------------------------------------------------------------------	|
+| <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/chrome.svg" width="24px" style="background: white" /> Google Chrome   	|        ✅       	| <ul><li>121.0.6167.85 (Win/x64)</li></ul> 	|
+| <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/edge.svg" width="24px" style="background: white" /> Microsoft Edge  	|        ✅       	| <ul><li>121.0.2277.83 (Win/x64)</li></ul>   	|
+| <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/brave.svg" width="24px" style="background: white" /> Brave          	|        ✅       	| <ul><li>1.62.153 (Win/x64)</ul></li>                            	|
+| <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/opera.svg" width="24px" style="background: white" /> Opera           	|        ✅       	| <ul><li>106.0.4998.66 (Win/x64)</ul></li>       	|
+
  
 ## Screenshots
  ![E-Commerce Site](./extension_before.PNG)
