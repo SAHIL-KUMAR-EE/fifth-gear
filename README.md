@@ -10,7 +10,7 @@
 <p align="center">
   <a href="#Introduction">Introduction</a> •
   <a href="#Features">Features</a> •
-  <a href="#Browser Compatibility">Browser Compatibility</a> •
+  <a href="#Browser-Compatibility">Browser Compatibility</a> •
   <a href="#Screenshots">Screenshots</a> •
   <a href="#Installation">Installation</a> •
   <a href="#Usage">Usage</a> •
